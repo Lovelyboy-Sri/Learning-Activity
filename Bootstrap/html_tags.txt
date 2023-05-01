@@ -11,4 +11,12 @@
   Tags :
 
   1. small.text-muted ( to display the text in the form of small and muted manner)
-  2. class = lead ( To display the code in the form of proffer manner ) 
+  2. class = lead ( Clearly visible, Light weighted ) 
+  3. p.text-decoration-underline
+  4. p.text-decoration-line-through
+  5. blockqoute
+  6. bg-color
+  7. text-color
+
+  Button code
+  
