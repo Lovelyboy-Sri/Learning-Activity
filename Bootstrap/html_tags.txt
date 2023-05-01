@@ -19,4 +19,9 @@
   7. text-color
 
   Button code
-  
+  8. btn-lg ( large )
+  9. btn-sm ( small )
+  10. btn-outline-warning
+
+  Bootstrap utility
+  11. 
