@@ -24,4 +24,28 @@
   10. btn-outline-warning
 
   Bootstrap utility
-  11. 
+  11. we have multiple type of the border's
+        so, here we gonna to do each of one
+
+        key words...
+        m - margin
+        p - padding
+        me - margin end Right
+        ms - margin start Left
+        mt - margin top
+        mb - margin bottom
+
+  Border
+  12. div.m-4.p-4.border(Basic border)
+  13. div.m-2.p-2.border-top.border-end.border-danger (Top and End)
+  14. div.m-3.p-3.border-start.border-bottom.border-success ( Left and Bottom )
+
+  corner adjustment
+  15. div.m-2.p-3.rounded.border.border-8.border-danger ( Rounded Border )
+  16. div.m-3.p-3.rounded-pill.border.border-4.border-primary.text-center.text-muted ( fully Rounded )
+  
+  Shadows
+  17. div.m-3.p-4.shadow ( Basic Shadow Example )
+  
+  Container's
+  18. 
