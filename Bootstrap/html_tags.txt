@@ -47,5 +47,19 @@
   Shadows
   17. div.m-3.p-4.shadow ( Basic Shadow Example )
   
-  Container's
-  18. 
+# Container's ( Used to adapt the portable devices )
+  18. div.Container-fluid ( Make it adaptable in any kind of the System ) 
+
+# Grid
+  19. we have the multiple kind of the grid's
+    Extra small (xs)
+    Small (sm)
+    Medium (md)
+    Large (lg)
+    Extra large (xl)
+    Extra extra large (xxl)
+
+# Totally we have 21 columns
+  20. div.row
+  21. div.column
+
