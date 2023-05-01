@@ -1,0 +1,14 @@
+  *  Hello buddies here we gonna do the few html contents and the usage ...
+  *  Majorly here we gonna to process the ( Emmet Abbreviation )
+  *  Emmet abbreviation is the smart and effective way of writing the html code
+  *  The process should presents in below
+
+  Emmet Abbreviation 
+
+  h1.name.class -> press enter to continue
+
+
+  Tags :
+
+  1. small.text-muted ( to display the text in the form of small and muted manner)
+  2. class = lead ( To display the code in the form of proffer manner ) 

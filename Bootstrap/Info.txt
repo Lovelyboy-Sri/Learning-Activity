@@ -1,0 +1,6 @@
+Bootstrap..
+
+> Bootstrap is a platform to integrate the HTML and the CSS code together here 
+> settings : open bootstrap -> Download -> CDN and JS link -> Copy the code and paste in the form of   
+             split out manner
+> If we wanna learn few things we have the option to learn ( Go and visit the content section )
