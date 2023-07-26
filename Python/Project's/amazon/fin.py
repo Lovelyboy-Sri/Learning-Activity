@@ -2,22 +2,22 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+import numpy as np
 
 # Title Section
-def title(soup):
+def name(soup):
     try:
         # outer tag
-        title = soup.find("span",attrs={'id':'productTitle'})
+        name = soup.find("span",attrs={'id':'productTitle'})
 
         # Inner Tag
-        title_val = title.text
+        title_val = name.text
 
         # Title as string
         title_str = title_val.strip()
 
-    except AttributeError:
-        title_str = ""
-    
+    except KeyError:
+        pass
     return title_str
 
 # Brand Section
@@ -83,13 +83,14 @@ if __name__ == "__main__":
         ns = BeautifulSoup(nw.content,'html.parser')
 
         # function calls to display
-        d['Name'].append(title(ns))
+        d['Name'].append(name(ns))
         d['Brand'].append(brand(ns))
         d['Price'].append(price(ns))
         d['Ratings'].append(rate(ns))
         d['Count'].append(count(ns))
-    
+
+    print(d)    
     af = pd.DataFrame.from_dict(d)
-    af['title'].replace('',np.nan,inplace=True)
-    af = af.dropna(subset=['title'])
+    af['Name'].replace('',np.nan,inplace=True)
+    af = af.dropna(subset=['Name'])
     af.to_excel('Final.xlsx',header=True,index=False)
